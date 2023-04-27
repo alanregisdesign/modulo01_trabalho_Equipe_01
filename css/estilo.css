@@ -9,31 +9,23 @@
     position: relative;
     background-color: #F5F5F5;
     width: 100%;
-    height: calc(100vh - 192px);
+    height: calc(100vh - 100px);
     top: 192px;
-}
-
-.bg_img{
-    display: flex;
-    position: relative;
-    padding-right: 15vw;
-    bottom: 13vh;
-    width: 40vw;
-    height: 100vh;
-    justify-content: space-around;
-    float: right;
+    background-image: url(../images/tenis.png);
+    background-repeat: no-repeat;
+    background-position: right center;
 }
 
 .ornamento{
     position: relative;
     display: flex;
     float: right;
-    left: 50vw;
+    left: 0vw;
     top: 10vh;
 }
 
 .texto_banner{
-    padding-top: 10vh;
+    padding-top: 15vh;
     padding-left: 5vw;
     display: block;
     width: 35vw;
@@ -59,10 +51,11 @@
     font-size: 64px;
     line-height: 66px;
     letter-spacing: 1px;
-    max-width: 30vw;
+    max-width: 50vw;
+    min-width: 40vw;
 }
 
-.banner p{
+.desc{
     padding-top: 30px;
     font-family: 'Inter';
     font-style: normal;
@@ -74,7 +67,9 @@
     max-width: 30vw;
 }
 
-.banner button{
+.btn{
+    display: flex;
+    flex-wrap: wrap;
     background-color: #C92071;
     color: #f5f5f5;
     margin-top: 30px;
@@ -87,7 +82,51 @@
     font-weight: 700;
     font-size: 16px;
     line-height: 24px;
-    align-items: center;
     text-align: center;
+    align-items: center;
+    justify-content: center;
     letter-spacing: 0.75px;
+}
+
+.btn_link{
+    text-decoration: none;
+}
+
+.btn_link:active{
+    text-decoration: none;
+}
+
+.carrossel{
+    position: relative;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.ponto{
+    height: 12px;
+    width: 12px;
+    background-color: #bbb;
+    margin-right: 6px;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    margin: 600px 0;
+    height: 454px;
+    width: 100%;
+    color: white;
+    background-color: black;
+    position: absolute;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 38px;
+}
+
+.info, .categorias, .contato{
+    width: 15vw;
 }

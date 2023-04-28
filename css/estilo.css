@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -113,12 +113,13 @@
 
 .footer{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     margin: 600px 0;
     height: 454px;
     width: 100%;
     color: white;
-    background-color: black;
+    background-color: #1F1F1F;
     position: absolute;
     font-family: "Inter";
     font-style: normal;
@@ -127,6 +128,71 @@
     line-height: 38px;
 }
 
+.social{
+    width: 20vw;
+}
+
 .info, .categorias, .contato{
     width: 15vw;
+    margin-top: 72px;
+}
+
+.footer .social .logo{
+    width: 33px;
+    height: 33px;
+    margin-top: 77px;
+}
+
+.footer .social a{
+    width: 33px;
+    height: 33px;
+    margin-top: 40px;
+}
+
+.footer .social a img{
+    width: 33px;
+    height: 33px;
+}
+
+.footer .social h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36.3951px;
+    line-height: 44px;
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+    margin-top: 72px;
+    margin-left: 8px;
+}
+
+.footer .social div{
+    display: flex;
+}
+
+.footer .social p~div{
+    display: flex;
+    gap: 36px;
+}
+
+.footer .social p{
+    margin-top: 35px;
+    line-height: 38px;
+}
+
+.footer .contato~div{
+    margin-top: 34px;
+    flex-basis: 100%;
+    width: 92%;
+    height: 1px;
+    background-color: #555;
+}
+
+.footer span{
+    text-align: center;
+    margin-top: 23px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 24px;
 }

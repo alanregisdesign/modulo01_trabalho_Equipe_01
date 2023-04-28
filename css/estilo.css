@@ -5,6 +5,8 @@
     border: 0;
 }
 
+/* ELEMENTOS DO BANNER */
+
 .banner{
     position: relative;
     background-color: #F5F5F5;
@@ -111,11 +113,12 @@
     display: inline-block;
   }
 
+/* ELEMENTOS DO FOOTER */
+
 .footer{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin: 600px 0;
     height: 454px;
     width: 100%;
     color: white;
@@ -136,6 +139,19 @@
     width: 15vw;
     margin-top: 72px;
 }
+
+.info div, .categorias div, .contato div{
+    margin-top: 28px;
+}
+
+.sessao_footer{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+}
+
 
 .footer .social .logo{
     width: 33px;
@@ -182,6 +198,8 @@
 
 .footer .contato~div{
     margin-top: 34px;
+    margin-left: 4vw;
+    margin-right: 4vw;
     flex-basis: 100%;
     width: 92%;
     height: 1px;
@@ -190,7 +208,6 @@
 
 .footer span{
     text-align: center;
-    margin-top: 23px;
     font-family: 'Inter';
     font-weight: 400;
     font-size: 13px;

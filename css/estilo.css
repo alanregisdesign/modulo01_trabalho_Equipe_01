@@ -9,27 +9,42 @@
 
 .banner{
     position: relative;
+    display: flex;
+    flex-wrap: wrap;
     background-color: #F5F5F5;
     width: 100%;
     height: calc(100vh - 350px);
-    background-image: url(../images/tenis.png);
-    background-repeat: no-repeat;
-    background-position: right center;
+    justify-content: center;
 }
 
-.ornamento{
-    position: relative;
+.banner .img_box{
     display: flex;
-    float: right;
-    left: 0vw;
-    top: 10vh;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    height: 80%;
+    width: 25%;
 }
 
 .texto_banner{
-    padding-top: 15vh;
-    padding-left: 5vw;
-    display: block;
-    width: 35vw;
+    width: 35%;
+    height: 80%;
+    margin-top: 124px;
+    margin-left: 5%;
+}
+
+.banner .img_box img{
+    width: 733px;
+    height: auto;
+    transform: rotate(-19.34deg);
+    padding-right: 250px;
+}
+
+.banner .ornamento{
+    margin-top: 78px;
+    justify-content: flex-start;
+    width: 140px;
+    height: 140px;
 }
 
 .banner h6{
@@ -99,7 +114,8 @@
 .carrossel{
     position: relative;
     text-align: center;
-    margin-top: 60px;
+    flex-basis: 100%;
+    bottom: 7%;
 }
 
 .ponto{

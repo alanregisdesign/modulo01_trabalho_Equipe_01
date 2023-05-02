@@ -310,7 +310,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border: 1px solid;
 }
 
 .colecoes .colecoes_cima{
@@ -318,7 +317,6 @@
     flex-wrap: wrap;
     margin-top: 38px;
     justify-content: center;
-    border: 1px solid;
 }
 
 .colecoes .colecoes_cima .chamada_colecao{
@@ -326,7 +324,6 @@
     width: 100px;
     height: 38px;
     margin-bottom: 20px;
-    border: 1px solid;
 }
 
 .colecoes .colecoes_cima div h2{
@@ -343,7 +340,6 @@
     display: flex;
     flex-wrap: nowrap;
     gap: 12px;
-    border: 1px solid;
 }
 
 .colecoes .colecoes_cima .box_destaque{
@@ -361,7 +357,6 @@
     align-items: center;
     justify-content: center;
     margin: 0 16%;
-    border: 1px solid;
 }
 
 .colecoes .colecoes_baixo .chamada_colecao{
@@ -434,7 +429,6 @@
     width: 292px;
     height: 321px;
     background-color: white;
-    border: 1px solid;
 }
 
   /* ELEMENTOS DA SESSÃO OFERTA */

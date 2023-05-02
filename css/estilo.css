@@ -420,7 +420,6 @@
 }
 
 .galeria .container{
-    border: 1px solid;
     display: flex;
     flex-wrap: wrap;
     width: 1440px;

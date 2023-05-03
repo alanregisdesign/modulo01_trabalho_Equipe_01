@@ -6,6 +6,7 @@
     list-style: none;
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
+    background-color: #ffabab;
 
 }
 
@@ -15,8 +16,24 @@ header{
     justify-content: space-between;
     padding: 16px 185px;
     width: 100%;
-    height: 192px;
+    align-items: center;
+
 }
+
+header .cima{
+    height: 1px;
+}
+
+header .baixo{
+    height: 10px;
+    background-color: #ffffff;
+}
+
+header .baixo div ul{
+    margin: 0;
+    background-color: #ffffff;
+}
+
 .logo{
     display: flex;
     /*flex-direction: row;*/
@@ -31,7 +48,7 @@ header div h1{
     color: #c92071;
     height: 44px;
     margin-left: 10px;
-    margin-top: 35px;
+    margin-top: 40px;
 }
 
 header .busca{
@@ -80,7 +97,7 @@ header .busca input:focus{
 header .busca img{
     position: absolute;
     top: 33px;
-    right: 780px;
+    right: 800px;
     cursor: pointer;
     margin-top: 20px;
 }
@@ -88,12 +105,36 @@ header .busca img{
 header div ul{
     gap: 100px;
     display: flex;
-    margin-top: 40px;
+    margin-top: 0;
 }
 
 header div ul li a{
     color: #474747;
     
+}
+
+.navigation a{
+    position: relative;
+}
+
+.navigation a::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    background-color: #474747;
+    border-radius: 5px;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform 200ms;
+}
+
+.navigation a:hover::after{
+    transform: scaleX(1);
+    transform-origin: left;
+
 }
 
 header nav ul li a.btn{
@@ -102,12 +143,20 @@ header nav ul li a.btn{
     border-radius: 8px;
     color: #ffffff;
     background-color: #c92071;
+    transition-duration: 300ms;
+}
+
+header nav ul li a.btn:hover{
+    background-color: #a11157;
+
 }
 
 .container{
     width: 100%;
-    height: 0;
     color: #474747;
-    margin-top: 0;
-    justify-content: space-between;
+    padding-top: 0;
+}
+
+nav .cima ul li{
+    margin-top: 50px;
 }

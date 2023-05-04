@@ -186,36 +186,34 @@ header .nav_menu a:active{
     width: 100%;
     height: 681px;
     justify-content: center;
-    align-items: center;
+    align-content: center;
 }
 
 .banner .container_banner{
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
+    width: 100%;
+    margin-top: 62px;
 }
 
 .banner .container_background{
     display: flex;
     flex-wrap: nowrap;
-    height: 80%;
-    margin-top: 62px;
-    gap: 50px;
 }
 
 .banner .texto_banner{
-    width: 35%;
-    height: 80%;
-    margin-top: 62px;
     min-width: 550px;
+    margin-left: 5%;
 }
 
 .banner .container_background .banner_foto{
-    height: fit-content;
-    transform: rotate(-19.34deg);
+    width: auto;
 }
 
 .banner .container_background .ornamento{
+    right: 7%;
+    top: 78px;
     width: 140px;
     height: 140px;
 }
@@ -286,9 +284,9 @@ header .nav_menu a:active{
 }
 
 .carrossel{
-    position: relative;
     text-align: center;
     flex-basis: 100%;
+    margin-top: 50px;
 }
 
 .ponto{
@@ -527,6 +525,7 @@ header .nav_menu a:active{
 
 .galeria .cabecalho_galeria{
     display: flex;
+    margin: 0 4%;
     justify-content: space-between;
     flex-basis: 100%;
 }
@@ -542,6 +541,9 @@ header .nav_menu a:active{
 }
 
 .galeria .cabecalho_galeria .ver_todos{
+    display: flex;
+    align-items: center;
+    gap: 14px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -549,6 +551,15 @@ header .nav_menu a:active{
     line-height: 34px;
     letter-spacing: 0.75px;
     color: #C92071;
+}
+
+.galeria .cabecalho_galeria .ver_todos p{
+    width: 88px;
+}
+
+.galeria .cabecalho_galeria .ver_todos img{
+    width: 16px;
+    height: 9px;
 }
 
 .galeria .container .quadro_imagem{

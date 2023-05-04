@@ -11,7 +11,7 @@
 
     <!-- SESSÃO - HEADER -->
 
-    <section class="header">
+    <header>
         <div class="header_main">
             <div class="box_logo">
                 <img class="logo" src="/images/Logo Digital Store Rosa.svg" alt="Logo da Digital Store">
@@ -42,23 +42,24 @@
             <a href="">Categorias</a>
             <a href="">Meus Pedidos</a>
         </div>
-    </section>
+    </header>
 
     <!-- SESSÃO - BANNER -->
 
     <section class="banner">
-        <div class="texto_banner">
-            <h6>Melhores ofertas personalizadas</h6>
-            <h1>Queima de Estoque Nike 🔥</h1>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet cumque voluptas.</p>
-            <a href="http://www.google.com">
-                <p>Ver Ofertas</p>
-            </a>
-        </div>
-
-        <div class="container_background">
-            <img class="banner_foto" src="/images/tenis.png" alt="">
-            <img class="ornamento" src="images/ornamento 01.png" alt="">
+        <div class="container_banner">
+            <div class="texto_banner">
+                <h6>Melhores ofertas personalizadas</h6>
+                <h1>Queima de Estoque Nike 🔥</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet cumque voluptas.</p>
+                <a href="http://www.google.com">
+                    <p>Ver Ofertas</p>
+                </a>
+            </div>
+            <div class="container_background">
+                <img class="banner_foto" src="/images/tenis.png" alt="">
+                <img class="ornamento" src="images/ornamento 01.png" alt="">
+            </div>
         </div>
         
         <div class="carrossel">
@@ -76,19 +77,34 @@
         <div class="colecoes_cima">
             <div class="chamada_colecao"><h2>Coleções em destaque</h2></div>
             <div class="container_destaque">
-                <div class="box_destaque"></div>
-                <div class="box_destaque"></div>
-                <div class="box_destaque"></div>
+                <div id="box_destaque_1">
+                    <div class="container">
+                        <div class="desconto_colecao">30% OFF</div>
+                        <h3>Novo drop Supreme</h3>
+                        <div class="botao_colecao">Comprar</div>
+                    </div>
+                </div>
+                <div id="box_destaque_2">
+                    <div class="desconto_colecao">30% OFF</div>
+                    <h3>Coleção Adidas</h3>
+                    <div class="botao_colecao">Comprar</div>
+                </div>
+                <div id="box_destaque_3">
+                    <div class="desconto_colecao">30% OFF</div>
+                    <h3>Novo Beats Bass</h3>
+                    <div class="botao_colecao">Comprar</div>
+                </div>
             </div>
         </div>
+
         <div class="colecoes_baixo">
             <div class="chamada_colecao"><h2>Coleções em destaque</h2></div>
             <div class="container_circulos">
-                <div class="box_circular"><p>Camisetas</p></div>
-                <div class="box_circular"><p>Calças</p></div>
-                <div class="box_circular"><p>Bonés</p></div>
-                <div class="box_circular"><p>Headphones</p></div>
-                <div class="box_circular"><p>Tênis</p></div>
+                <div class="box_circular_1"><p>Camisetas</p></div>
+                <div class="box_circular_2"><p>Calças</p></div>
+                <div class="box_circular_3"><p>Bonés</p></div>
+                <div class="box_circular_4"><p>Headphones</p></div>
+                <div class="box_circular_5"><p>Tênis</p></div>
             </div>
         </div>
     </section>
@@ -97,14 +113,114 @@
 
     <section class="galeria">
         <div class="container">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div>t</div>
+            <div class="cabecalho_galeria">
+                <div class="produtos_alta">Produtos em Alta</div>
+                <div class="ver_todos">ver todos</div>
+            </div>
+            <div>
+                <div class="quadro_imagem">
+                    <div>30% OFF</div>
+                </div>
+                <div class="desc_galeria">
+                    <h6>Tênis</h6>
+                    <p class="nome_galeria">K-Swss V8 - Masculino</p>
+                    <div>
+                        <p class="preco_antigo">$200</p>
+                        <p class="preco_novo">$100</p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="quadro_imagem">
+                    <div>30% OFF</div>
+                </div>
+                <div class="desc_galeria">
+                    <h6>Tênis</h6>
+                    <p class="nome_galeria">K-Swss V8 - Masculino</p>
+                    <div>
+                        <p class="preco_antigo">$200</p>
+                        <p class="preco_novo">$100</p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="quadro_imagem">
+                    <div>30% OFF</div>
+                </div>
+                <div class="desc_galeria">
+                    <h6>Tênis</h6>
+                    <p class="nome_galeria">K-Swss V8 - Masculino</p>
+                    <div>
+                        <p class="preco_antigo">$200</p>
+                        <p class="preco_novo">$100</p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="quadro_imagem">
+                    <div>30% OFF</div>
+                </div>
+                <div class="desc_galeria">
+                    <h6>Tênis</h6>
+                    <p class="nome_galeria">K-Swss V8 - Masculino</p>
+                    <div>
+                        <p class="preco_antigo">$200</p>
+                        <p class="preco_novo">$100</p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="quadro_imagem">
+                    <div>30% OFF</div>
+                </div>
+                <div class="desc_galeria">
+                    <h6>Tênis</h6>
+                    <p class="nome_galeria">K-Swss V8 - Masculino</p>
+                    <div>
+                        <p class="preco_antigo">$200</p>
+                        <p class="preco_novo">$100</p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="quadro_imagem">
+                    <div>30% OFF</div>
+                </div>
+                <div class="desc_galeria">
+                    <h6>Tênis</h6>
+                    <p class="nome_galeria">K-Swss V8 - Masculino</p>
+                    <div>
+                        <p class="preco_antigo">$200</p>
+                        <p class="preco_novo">$100</p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="quadro_imagem">
+                    <div>30% OFF</div>
+                </div>
+                <div class="desc_galeria">
+                    <h6>Tênis</h6>
+                    <p class="nome_galeria">K-Swss V8 - Masculino</p>
+                    <div>
+                        <p class="preco_antigo">$200</p>
+                        <p class="preco_novo">$100</p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="quadro_imagem">
+                    <div>30% OFF</div>
+                </div>
+                <div class="desc_galeria">
+                    <h6>Tênis</h6>
+                    <p class="nome_galeria">K-Swss V8 - Masculino</p>
+                    <div>
+                        <p class="preco_antigo">$200</p>
+                        <p class="preco_novo">$100</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 

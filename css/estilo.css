@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -166,4 +166,687 @@ header nav ul li a.btn:hover{
 
 nav .cima ul li{
     margin-top: 50px;
+
+/* ELEMENTOS DO BANNER */
+
+.banner{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #F5F5F5;
+    width: 100%;
+    height: 681px;
+    justify-content: center;
+    align-content: center;
+}
+
+.banner .container_banner{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    width: 100%;
+    margin-top: 62px;
+}
+
+.banner .container_background{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.banner .texto_banner{
+    min-width: 550px;
+    margin-left: 5%;
+}
+
+.banner .container_background .banner_foto{
+    width: auto;
+}
+
+.banner .container_background .ornamento{
+    right: 7%;
+    top: 78px;
+    width: 140px;
+    height: 140px;
+}
+
+.banner h6{
+    color:#F6AA1C;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.75px;
+}
+
+.banner h1{
+    color: #1F1F1F;
+    position: relative;
+    padding-top: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 66px;
+    letter-spacing: 1px;
+    max-width: 550px;
+    min-width: 550px;
+}
+
+.banner .texto_banner h1~p{
+    padding-top: 30px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 34px;
+    letter-spacing: 0.75px;
+    color: #474747;
+    max-width: 550px;
+}
+
+.banner .texto_banner a p{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #C92071;
+    color: #f5f5f5;
+    margin-top: 30px;
+    width: 220px;
+    height: 48px;
+    border: solid 0px;
+    border-radius: 8px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.75px;
+}
+
+.banner .texto_banner a{
+    text-decoration: none;
+}
+
+.banner .texto_banner a:active{
+    text-decoration: none;
+}
+
+.carrossel{
+    text-align: center;
+    flex-basis: 100%;
+    margin-top: 50px;
+    user-select: none;
+}
+
+.ponto{
+    height: 12px;
+    width: 12px;
+    background-color: #bbb;
+    margin-right: 6px;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  .ponto:hover{
+    background-color: #c21146
+  }
+
+  /* ELEMENTOS DA SESSÃO COLEÇÕES */
+
+.colecoes{
+    width: 100%;
+    height: 680px;
+    background-color: #f9f8fe;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.colecoes .colecoes_cima{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 38px;
+    justify-content: center;
+}
+
+.colecoes .colecoes_cima .chamada_colecao{
+    flex-basis: 92%;
+    width: 100px;
+    height: 38px;
+    margin-bottom: 20px;
+}
+
+.colecoes .colecoes_cima div h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0.75px;
+    color: #474747;
+}
+
+.colecoes .colecoes_cima .container_destaque{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 12px;
+}
+
+.colecoes .colecoes_cima #box_destaque_1{
+    background-color: #d8e3f2;
+    width: 405px;
+    min-width: 405px;
+    height: 251px;
+    border-radius: 8px;
+    background-image: url(/images/Camisa.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.colecoes .colecoes_cima #box_destaque_2{
+    background-color: #d8e3f2;
+    width: 405px;
+    min-width: 405px;
+    height: 251px;
+    border-radius: 8px;
+    background-image: url(/images/Tenis3.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.colecoes .colecoes_cima #box_destaque_3{
+    background-color: #d8e3f2;
+    width: 405px;
+    min-width: 405px;
+    height: 251px;
+    border-radius: 8px;
+    background-image: url(/images/Fone.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.colecoes .colecoes_baixo{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: 0 16%;
+}
+
+.colecoes .colecoes_baixo .chamada_colecao{
+    flex-basis: 100%;
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+
+.colecoes .colecoes_baixo div h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0.75px;
+    color: #474747;
+}
+
+.colecoes .colecoes_baixo .container_circulos{
+    display: flex;
+    flex-wrap: nowrap;
+    position: relative;
+    gap: 48px;
+    margin-top: -100px;
+}
+
+.colecoes_baixo .container_circulos a{
+    text-decoration: none;
+}
+
+.colecoes .colecoes_baixo .box_circular_1, .box_circular_2, .box_circular_3, .box_circular_4, .box_circular_5{
+    width: 104px;
+    height: 104px;
+    border-radius: 150px;
+    background-color: white;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+.colecoes .colecoes_baixo .box_circular_1 img, .box_circular_2 img, .box_circular_3 img, .box_circular_4 img, .box_circular_5 img{
+    position: absolute;
+    align-self: center;
+    transition: transform 250ms ease-in-out;
+}
+
+.colecoes .colecoes_baixo .box_circular_1 img:hover, .box_circular_2 img:hover, .box_circular_3 img:hover, .box_circular_4 img:hover, .box_circular_5 img:hover{
+    position: absolute;
+    filter: brightness(0) saturate(100%);
+    filter: invert(22%) sepia(48%) saturate(4475%) hue-rotate(313deg) brightness(87%) contrast(94%);
+    transform: scale(1.2);
+}
+
+.colecoes .colecoes_baixo .box_circular_1 p, .box_circular_2 p, .box_circular_3 p, .box_circular_4 p, .box_circular_5 p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.75px;
+    color: #474747;
+    margin-bottom:-35px;
+}
+
+.colecoes .colecoes_cima .container_destaque .desconto_colecao{
+    width: 96px;
+    height: 32px;
+    margin-top: 34px;
+    margin-left: 30px;
+    background: #E7FF86;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.75px;
+    color: #474747;
+}
+
+.colecoes .colecoes_cima .container_destaque h3{
+    max-width: 184px;
+    height: 82px;
+    margin-top: 10px;
+    margin-left: 30px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 36px;
+    letter-spacing: 1px;
+    color: #1F1F1F;
+}
+
+.colecoes .colecoes_cima .container_destaque .botao_colecao{
+    width: 153px;
+    height: 48px;
+    margin-top: 20px;
+    margin-left: 30px;
+    background-color: white;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.75px;
+    color: #C92071;
+}
+
+.colecoes .colecoes_cima .container_destaque a{
+    text-decoration: none;
+}
+
+  /* ELEMENTOS DA SESSÃO GALERIA */
+
+.galeria{
+    width: 100%;
+    height: auto;
+    background-color: #f9f8fe;
+    display: flex;
+    justify-content: center;
+}
+
+.galeria .container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1440px;
+    height: 80%;
+    justify-content: center;
+    margin-top: 150px;
+    gap: 24px;
+    margin-bottom: 120px;;
+}
+
+.galeria .container a{
+    text-decoration: none;
+}
+
+.galeria .cabecalho_galeria{
+    display: flex;
+    justify-content: space-between;
+    width: 86%;
+}
+
+.galeria .cabecalho_galeria a{
+    text-decoration: none;
+}
+
+.galeria .cabecalho_galeria .produtos_alta{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0.75px;
+    color: #474747;
+}
+
+.galeria .cabecalho_galeria .ver_todos{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 34px;
+    letter-spacing: 0.75px;
+    color: #C92071;
+}
+
+.galeria .cabecalho_galeria .ver_todos p{
+    width: 88px;
+}
+
+.galeria .cabecalho_galeria .ver_todos img{
+    width: 16px;
+    height: 9px;
+}
+
+.galeria .container .quadro_imagem{
+    width: 292px;
+    height: 321px;
+    background-color: white;
+    background-image: url(/images/tenis4.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.galeria .container .quadro_imagem div{
+    position:absolute;
+    width: 96px;
+    height: 32px;
+    margin-left: 20px;
+    margin-top: 20px;
+    background: #E7FF86;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.75px;
+    color: #474747;
+}
+
+.galeria .container div h6{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 0.75px;
+    color: #8F8F8F;
+}
+
+.galeria .container .nome_galeria{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0.75px;
+    color: #474747;
+}
+
+.galeria .container .preco_antigo{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0.75px;
+    color: #8F8F8F;
+    text-decoration: line-through;
+}
+
+.galeria .container .preco_novo{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0.75px;
+    color: #1F1F1F;
+}
+
+.galeria .container .desc_galeria{
+    margin-top: 18px;
+}
+
+.galeria .container div div div{
+    display: flex;
+    gap: 11px;
+}
+
+  /* ELEMENTOS DA SESSÃO OFERTA */
+
+.oferta{
+    margin-top: 106px;
+    right: 159px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 97px;
+    position: relative;
+    width: 100%;
+    height: 553px;
+}
+
+.oferta div{
+    margin: 0 0;
+}
+
+.oferta .img_box{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.oferta div div{
+    position: relative;
+    top: 0;
+    left: 0;
+    background-image: none;
+    background-color: #4200FF25;
+    width: 466px;
+    height: 466px;
+    border-radius: 100%;
+    margin-left: 129px;
+    background: linear-gradient(180deg, #4200ff40 -40.67%, #ffffff00 100%);
+}
+
+.oferta div img{
+    top: 28px;
+    left: 60px;
+    position: absolute;
+}
+
+.oferta h6{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.75px;
+    color: #C92071;
+}
+
+.oferta h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 50px;
+    letter-spacing: 1px;
+    color: #474747;
+    max-width: 514px;
+    margin-top: 17px;
+}
+
+.oferta p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.75px;
+    color: #474747;
+    max-width: 589px;
+    margin-top: 20px;
+}
+
+.oferta a{
+    text-decoration: none;
+}
+
+.oferta a p{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #C92071;
+    color: #f5f5f5;
+    margin-top: 30px;
+    width: 220px;
+    height: 48px;
+    border: solid 0px;
+    border-radius: 8px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.75px;
+}
+
+/* ELEMENTOS DO FOOTER */
+
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 454px;
+    width: 100%;
+    color: white;
+    background-color: #1F1F1F;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 38px;
+}
+
+.social{
+    width: 20vw;
+}
+
+.info a, .categorias a{
+    text-decoration: none;
+    color: white;
+}
+
+.info, .categorias, .contato{
+    width: 15vw;
+    margin-top: 72px;
+}
+
+.info div, .categorias div, .contato div{
+    margin-top: 28px;
+}
+
+.sessao_footer{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+
+.footer .social .logo{
+    width: 33px;
+    height: 33px;
+    margin-top: 77px;
+}
+
+.footer .social a{
+    width: 33px;
+    height: 33px;
+    margin-top: 40px;
+    text-decoration: none;
+}
+
+.footer .social a img{
+    width: 33px;
+    height: 33px;
+}
+
+.footer .social h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36.3951px;
+    line-height: 44px;
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+    margin-top: 72px;
+    margin-left: 8px;
+}
+
+.footer .social div{
+    display: flex;
+}
+
+.footer .social p~div{
+    display: flex;
+    gap: 36px;
+}
+
+.footer .social p{
+    margin-top: 35px;
+    line-height: 38px;
+}
+
+.footer .contato~div{
+    margin-top: 34px;
+    margin-left: 4vw;
+    margin-right: 4vw;
+    flex-basis: 100%;
+    width: 92%;
+    height: 1px;
+    background-color: #555;
+}
+
+.footer span{
+    text-align: center;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 24px;
 }

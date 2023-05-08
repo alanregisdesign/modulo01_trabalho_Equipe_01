@@ -7,7 +7,6 @@
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
     /* background-color: #ffabab; */
-
 }
 
 header{
@@ -17,7 +16,6 @@ header{
     padding: 16px 185px;
     width: 100%;
     align-items: center;
-
 }
 
 header .cima{
@@ -44,6 +42,7 @@ header .baixo div ul{
     height: 33px;
     margin-top: 38px;
 }
+
 header div h1{
     color: #c92071;
     height: 44px;
@@ -110,12 +109,10 @@ header div ul{
 
 header div ul li a{
     color: #474747;
-    
 }
 
 .navigation a{
     position: relative;
-    
 }
 
 .navigation a:hover{
@@ -141,7 +138,6 @@ header div ul li a{
 .navigation a:hover::after{
     transform: scaleX(1);
     transform-origin: left;
-    
 }
 
 header nav ul li a.btn{
@@ -155,7 +151,6 @@ header nav ul li a.btn{
 
 header nav ul li a.btn:hover{
     background-color: #a11157;
-
 }
 
 .container{
@@ -166,6 +161,7 @@ header nav ul li a.btn:hover{
 
 nav .cima ul li{
     margin-top: 50px;
+}
 
 /* ELEMENTOS DO BANNER */
 

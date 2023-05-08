@@ -338,7 +338,7 @@ nav .cima ul li{
     min-width: 405px;
     height: 251px;
     border-radius: 8px;
-    background-image: url(/images/Camisa.png);
+    background-image: url(images/Camisa.png);
     background-repeat: no-repeat;
     background-position: right bottom;
 }
@@ -349,7 +349,7 @@ nav .cima ul li{
     min-width: 405px;
     height: 251px;
     border-radius: 8px;
-    background-image: url(/images/Tenis3.png);
+    background-image: url(images/Tenis3.png);
     background-repeat: no-repeat;
     background-position: right bottom;
 }
@@ -360,7 +360,7 @@ nav .cima ul li{
     min-width: 405px;
     height: 251px;
     border-radius: 8px;
-    background-image: url(/images/Fone.png);
+    background-image: url(images/Fone.png);
     background-repeat: no-repeat;
     background-position: right bottom;
 }

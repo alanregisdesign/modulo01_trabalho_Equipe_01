@@ -99,7 +99,7 @@ header .busca input:focus{
 header .busca img{
     position: absolute;
     top: 35px;
-    right: 42rem;
+    right: 50rem;
     cursor: pointer;
     margin-top: 20px;
 }

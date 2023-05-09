@@ -154,6 +154,20 @@ header div ul li a{
     transition: transform 200ms;
 }
 
+.navigation .pag_ativa{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.75px;
+    color: #C92071;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 8px;
+}
+
 
 .navigation a:hover::after{
     transform: scaleX(1);

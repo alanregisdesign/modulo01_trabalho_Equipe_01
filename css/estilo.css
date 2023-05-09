@@ -6,7 +6,6 @@
     list-style: none;
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
-    /* background-color: #ffabab; */
 }
 
 header{
@@ -34,7 +33,6 @@ header .baixo div ul{
 
 .logo{
     display: flex;
-    /*flex-direction: row;*/
 }
 
 .logo img{
@@ -52,29 +50,14 @@ header div h1{
 
 header .busca{
     background-color: #47474710;
-    /* opacity: .20; */
     height: 60px;
     border-radius: 8px;
     width: 560px;
-    /* background-image: url(../images/lupa.png);
-    background-repeat: no-repeat;
-    background-position: right; */
     display: flex;
     margin-top: 20px;
 }
 
 header .busca input{
-    /* width: 100%;
-    height: 60px;
-    background-color: #47474710;
-    opacity: 0.04;
-    padding-right: 60px;
-    padding-left: 16px;
-    transition: 300ms;
-    outline: none;
-    border: 1px solid;
-    border-radius: 8px;
-    text-decoration-color: black; */
     width: 100%;
     height: 60px;
     background-color: #47474701;
@@ -494,150 +477,6 @@ nav .cima ul li{
 }
 
   /* ELEMENTOS DA SESSÃO GALERIA */
-
-.galeria{
-    width: 100%;
-    height: auto;
-    background-color: #f9f8fe;
-    display: flex;
-    justify-content: center;
-}
-
-.galeria .container{
-    display: flex;
-    flex-wrap: wrap;
-    width: 1440px;
-    height: 80%;
-    justify-content: center;
-    margin-top: 150px;
-    gap: 24px;
-    margin-bottom: 120px;;
-}
-
-.galeria .container a{
-    text-decoration: none;
-}
-
-.galeria .cabecalho_galeria{
-    display: flex;
-    justify-content: space-between;
-    width: 86%;
-}
-
-.galeria .cabecalho_galeria a{
-    text-decoration: none;
-}
-
-.galeria .cabecalho_galeria .produtos_alta{
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 38px;
-    letter-spacing: 0.75px;
-    color: #474747;
-}
-
-.galeria .cabecalho_galeria .ver_todos{
-    display: flex;
-    align-items: center;
-    gap: 14px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 34px;
-    letter-spacing: 0.75px;
-    color: #C92071;
-}
-
-.galeria .cabecalho_galeria .ver_todos p{
-    width: 88px;
-}
-
-.galeria .cabecalho_galeria .ver_todos img{
-    width: 16px;
-    height: 9px;
-}
-
-.galeria .container .quadro_imagem{
-    width: 292px;
-    height: 321px;
-    background-color: white;
-    background-image: url(../images/tenis4.png);
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.galeria .container .quadro_imagem div{
-    position:absolute;
-    width: 96px;
-    height: 32px;
-    margin-left: 20px;
-    margin-top: 20px;
-    background: #E7FF86;
-    border-radius: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 22px;
-    letter-spacing: 0.75px;
-    color: #474747;
-}
-
-.galeria .container div h6{
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 12px;
-    line-height: 24px;
-    letter-spacing: 0.75px;
-    color: #8F8F8F;
-}
-
-.galeria .container .nome_galeria{
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 38px;
-    letter-spacing: 0.75px;
-    color: #474747;
-}
-
-.galeria .container .preco_antigo{
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 38px;
-    letter-spacing: 0.75px;
-    color: #8F8F8F;
-    text-decoration: line-through;
-}
-
-.galeria .container .preco_novo{
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 38px;
-    letter-spacing: 0.75px;
-    color: #1F1F1F;
-}
-
-.galeria .container .desc_galeria{
-    margin-top: 18px;
-}
-
-.galeria .container div div div{
-    display: flex;
-    gap: 11px;
-}
 
   /* ELEMENTOS DA SESSÃO OFERTA */
 

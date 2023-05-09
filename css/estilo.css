@@ -36,6 +36,7 @@ header .baixo div ul{
     display: flex;
     flex-wrap: nowrap;
     min-width: 255px;
+    align-items: center;
 }
 
 .logo img{
@@ -490,9 +491,12 @@ nav .cima ul li{
 
   /* ELEMENTOS DA SESSÃO GALERIA */
 
+.galeria{
+    background-color: #f9f8fe;
+}
+
 .galeria-header {
   display: flex;
-  background-color: #f9f8fe;
   justify-content: space-between;
   align-items: center;
   margin: 80px auto 80px auto;

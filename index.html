@@ -5,10 +5,140 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Digital Store</title>
-    <link rel="stylesheet" href="/css/estilo.css" />
-  </head>
-  <body>
-    <section class="galeria">
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <section>
+      <header class="cima">
+        <div class="logo">
+            <img src="images/Vector.png" alt="">
+            <h1>Digital Store</h1>
+        </div>
+        <div class="busca">
+            <input type="text" name="pesquisa" id="" placeholder="Pesquisar produto...">
+            <img src="images/lupa.png" alt="">
+        </div>
+        <div>
+            <nav class="cima">
+                <ul>
+                <li><a href="https://www.google.com/webhp?hl=es&sa=X&ved=0ahUKEwipm_LIyNz-AhWeG7kGHeZNDPYQPAgI">Cadastre-se</a></li>
+                <li><a class="btn" href="entrar">Entrar</a></li>
+                <li><a href="https://www.google.com/webhp?hl=es&sa=X&ved=0ahUKEwipm_LIyNz-AhWeG7kGHeZNDPYQPAgI"><img src="images/carrinho.png" alt=""></a></li>
+            </ul>  
+            </nav>
+        </div>
+      </header>
+      <header class="baixo">
+        <div class="container">
+          <nav class="navigation">
+            <ul>
+              <li><a href="https://www.google.com/webhp?hl=es&sa=X&ved=0ahUKEwipm_LIyNz-AhWeG7kGHeZNDPYQPAgI">Home</a></li>
+              <li><a href="https://www.google.com/webhp?hl=es&sa=X&ved=0ahUKEwipm_LIyNz-AhWeG7kGHeZNDPYQPAgI">Produtos</a></li>
+              <li><a href="https://www.google.com/webhp?hl=es&sa=X&ved=0ahUKEwipm_LIyNz-AhWeG7kGHeZNDPYQPAgI">Categorias</a></li>
+              <li><a href="https://www.google.com/webhp?hl=es&sa=X&ved=0ahUKEwipm_LIyNz-AhWeG7kGHeZNDPYQPAgI">Meus Pedidos</a></li>
+            </ul>
+          </nav>
+        </div>  
+      </header>
+  
+    <!-- SESSÃO - BANNER -->
+
+    <section class="banner">
+        <div class="container_banner">
+            <div class="texto_banner">
+                <h6>Melhores ofertas personalizadas</h6>
+                <h1>Queima de Estoque Nike 🔥</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet cumque voluptas.</p>
+                <a href="">
+                    <p>Ver Ofertas</p>
+                </a>
+            </div>
+            <div class="container_background">
+                <img class="banner_foto" src="images/tenis.png" alt="">
+                <img class="ornamento" src="images/ornamento 01.png" alt="">
+            </div>
+        </div>
+        <div class="carrossel">
+            <a href=""><span class="ponto"></span></a>
+            <a href=""><span class="ponto"></span></a>
+            <a href=""><span class="ponto"></span></a>
+            <a href=""><span class="ponto"></span></a>
+        </div>
+
+    </section>
+
+    <!-- SESSÃO - COLEÇÕES -->
+
+    <section class="colecoes">
+        <div class="colecoes_cima">
+            <div class="chamada_colecao"><h2>Coleções em destaque</h2></div>
+            <div class="container_destaque">
+                <div id="box_destaque_1">
+                    <div class="container">
+                        <div class="desconto_colecao">30% OFF</div>
+                        <h3>Novo drop Supreme</h3>
+                        <a href="">
+                            <div class="botao_colecao">Comprar</div>
+                        </a>
+                    </div>
+                </div>
+                <div id="box_destaque_2">
+                    <div class="desconto_colecao">30% OFF</div>
+                    <h3>Coleção Adidas</h3>
+                    <a href="">
+                        <div class="botao_colecao">Comprar</div>
+                    </a>
+                </div>
+                <div id="box_destaque_3">
+                    <div class="desconto_colecao">30% OFF</div>
+                    <h3>Novo Beats Bass</h3>
+                    <a href="">
+                        <div class="botao_colecao">Comprar</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="colecoes_baixo">
+            <div class="chamada_colecao"><h2>Coleções em destaque</h2></div>
+            <div class="container_circulos">
+                <a href="">
+                    <div class="box_circular_1">
+                        <p>Camisetas</p>
+                        <img src="images/Icon_Camiseta.svg" alt="">
+                    </div>
+                </a>
+                <a href="">
+                    <div class="box_circular_2">
+                        <p>Calças</p>
+                        <img src="images/Icon_Calça.svg" alt="">
+                    </div>
+                </a>
+                <a href="">
+                    <div class="box_circular_3">
+                        <p>Bonés</p>
+                        <img src="images/Icon_Bone.svg" alt="">
+                    </div>
+                </a>
+                <a href="">
+                    <div class="box_circular_4">
+                        <p>Headphones</p>
+                        <img src="images/Icon_Headphone.svg" alt="">
+                    </div>
+                </a>
+                <a href="">
+                    <div class="box_circular_5">
+                        <p>Tênis</p>
+                        <img src="images/Icon_Tenis.svg" alt="">
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SESSÃO - GALERIA -->
+      
+      <section class="galeria">
         <div class="galeria-header">
             <h3 class="galeria-titulo">Produtos em alta</h3>
             <div class="galeria-todos">
@@ -111,5 +241,93 @@
           </li>
         </ul>
     </section>
-  </body>
+
+    <!-- SESSÃO - OFERTA ESPECIAL -->
+
+    <section class="oferta">
+        <div class="img_box">
+            <div></div>
+            <img src="images/tenis2.png" alt="">
+        </div>
+        <div>
+            <h6>Oferta Especial</h6>
+            <h1>Air Jordan edição de colecionador</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim at corporis ut eius consequatur quia voluptas aspernatur itaque nemo! Ea natus magnam maxime eius sit autem temporibus asperiores dolores officiis?</p>
+            <a class="btn_link" href="">
+                <p class="btn">Ver Oferta</p>
+            </a>
+        </div>
+    </section>
+
+    <!-- SESSÃO - FOOTER -->
+
+    <section class="footer">
+        <div class="social">
+            <a href="">
+                <div>
+                    <img class="logo" src="images/Logo Digital Store.svg" alt="Logo da Digital Store">
+                    <h2>Digital Store</h2>
+                </div>
+            </a>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam provident ducimus quam labore adipisicing elit.</p>
+            <div>
+                <a href="http://facebook.com"><img src="images/Facebook.svg" alt="Ícone do Facebook"></a>
+                <a href="http://instagram.com"><img src="images/Instagram.svg" alt="Ícone do Instagram"></a>
+                <a href="http://twitter.com"><img src="images/Twitter.svg" alt="Ícone do Twitter"></a>
+            </div>
+        </div>
+        <div class="info">
+            <p class="sessao_footer">Informação</p>
+            <div>
+                <a href="">
+                    <p>Sobre a Drip Store</p>
+                </a>
+                <a href="">
+                    <p>Segurança</p>
+                </a>
+                <a href="">
+                    <p>Wishlist</p>
+                </a>
+                <a href="">
+                    <p>Blog</p>
+                </a>
+                <a href="">
+                    <p>Trabalhe Conosco</p>
+                </a>
+                <a href="">
+                    <p>Meus Pedidos</p>
+                </a>
+            </div>
+        </div>
+        <div class="categorias">
+            <p class="sessao_footer">Categorias</p>
+            <div>
+                <a href="">
+                    <p>Camisetas</p>
+                </a>
+                <a href="">
+                    <p>Calças</p>
+                </a>
+                <a href="">
+                    <p>Bonés</p>
+                </a>
+                <a href="">
+                    <p>Headphones</p>
+                </a>
+                <a href="">
+                    <p>Tênis</p>
+                </a>
+            </div>
+        </div>
+        <div class="contato">
+            <p class="sessao_footer">Contato</p>
+            <div>
+                <p>Av. Santos Dumont, 1510 - 1º andar - Aldeota, Fortaleza - CE, 60150-161</p>
+                <p>(85)3051-3411</p>
+            </div>
+        </div>
+        <div></div>
+        <span>@ 2022 Digital College</span>
+    </section>
+</body>
 </html>

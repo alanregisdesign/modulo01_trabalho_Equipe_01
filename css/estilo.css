@@ -103,6 +103,10 @@ header div ul li a{
     color: #474747;
 }
 
+header div ul .cadastro{
+    min-width: 200px;
+}
+
 .navigation a{
     position: relative;
 }

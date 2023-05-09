@@ -35,7 +35,7 @@ header .baixo div ul{
 .logo{
     display: flex;
     flex-wrap: nowrap;
-    min-width: 195px;
+    min-width: 255px;
 }
 
 .logo img{

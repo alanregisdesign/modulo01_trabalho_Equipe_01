@@ -15,6 +15,7 @@ header{
     padding: 16px 185px;
     width: 100%;
     align-items: center;
+    gap: 20px;
 }
 
 header .cima{
@@ -33,6 +34,8 @@ header .baixo div ul{
 
 .logo{
     display: flex;
+    flex-wrap: nowrap;
+    min-width: 195px;
 }
 
 .logo img{
@@ -49,9 +52,11 @@ header div h1{
 }
 
 header .busca{
+    position: relative;
     background-color: #47474710;
     height: 60px;
     border-radius: 8px;
+    min-width: 260px;
     width: 560px;
     display: flex;
     margin-top: 20px;
@@ -78,8 +83,8 @@ header .busca input:focus{
 
 header .busca img{
     position: absolute;
-    top: 33px;
-    right: 50rem;
+    top: 0;
+    right: 20px;
     cursor: pointer;
     margin-top: 20px;
 }

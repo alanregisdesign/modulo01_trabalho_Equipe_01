@@ -8,18 +8,24 @@
     font-family: 'Inter', sans-serif;
 }
 
+body{
+    overflow-x: hidden;
+}
+
 header{
     display: flex;
     background-color: #ffffff;
     justify-content: space-between;
-    padding: 16px 185px;
+    padding: 16px;
+    padding-right: 9%;
+    padding-left: 9%;
     width: 100%;
     align-items: center;
-    gap: 20px;
+    gap: 34px;
 }
 
-header .cima{
-    height: 1px;
+.cima{
+    margin-top: 30px;
 }
 
 header .baixo{
@@ -32,14 +38,16 @@ header .baixo div ul{
     background-color: #ffffff;
 }
 
-.logo{
+.header_logo a{
+    width: 253px;
+    height: 44px;
     display: flex;
     flex-wrap: nowrap;
     min-width: 255px;
     align-items: center;
 }
 
-.logo img{
+.header_logo a img{
     width: 33px;
     height: 33px;
 }
@@ -63,7 +71,7 @@ header .busca{
     height: 60px;
     border-radius: 8px;
     min-width: 260px;
-    width: 560px;
+    width: 100%;
     display: flex;
 }
 
@@ -83,28 +91,44 @@ header .busca input{
 
 header .busca input:focus{
     border-color: #c92071;
-
 }
 
 header .busca img{
     position: absolute;
-    top: 0;
     right: 20px;
+    align-self: center;
     cursor: pointer;
 }
 
-header div ul{
-    gap: 100px;
+.navigation ul{
     display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
     margin-top: 0;
+    gap: 32px;
 }
 
 header div ul li a{
     color: #474747;
 }
 
-header div ul .cadastro{
-    min-width: 200px;
+.botoes_header_direita{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    gap: 20px;
+}
+
+.cima div .cadastro{
+    min-width: 94px;
+}
+
+.cima div .cadastro a{
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    color: #474747;
 }
 
 .navigation a{
@@ -136,7 +160,7 @@ header div ul .cadastro{
     transform-origin: left;
 }
 
-header nav ul li a.btn{
+.cima div div a.btn{
     padding: 10px 35px;
     border: silver;
     border-radius: 8px;
@@ -145,17 +169,14 @@ header nav ul li a.btn{
     transition-duration: 300ms;
 }
 
-header nav ul li a.btn:hover{
+.cima div div a.btn:hover{
     background-color: #a11157;
 }
 
 .container{
-    width: 100%;
+    width: 423px;
     color: #474747;
     padding-top: 0;
-}
-
-nav .cima ul li{
 }
 
 /* ELEMENTOS DO BANNER */
@@ -182,6 +203,7 @@ nav .cima ul li{
 .banner .container_background{
     display: flex;
     flex-wrap: nowrap;
+    position: relative;
 }
 
 .banner .texto_banner{
@@ -194,8 +216,9 @@ nav .cima ul li{
 }
 
 .banner .container_background .ornamento{
-    right: 7%;
-    top: 78px;
+    position: absolute;
+    right: -18%;
+    top: -50px;
     width: 140px;
     height: 140px;
 }
@@ -255,6 +278,11 @@ nav .cima ul li{
     align-items: center;
     justify-content: center;
     letter-spacing: 0.75px;
+    transition-duration: 250ms;
+}
+
+.banner .texto_banner a p:hover{
+    background-color: #a11157;
 }
 
 .banner .texto_banner a{
@@ -279,6 +307,7 @@ nav .cima ul li{
     margin-right: 6px;
     border-radius: 50%;
     display: inline-block;
+    transition-duration: 250ms;
   }
 
   .ponto:hover{
@@ -482,6 +511,12 @@ nav .cima ul li{
     line-height: 24px;
     letter-spacing: 0.75px;
     color: #C92071;
+    transition-duration: 250ms;
+}
+
+.colecoes .colecoes_cima .container_destaque .botao_colecao:hover{
+    background-color: #C92071;
+    color: white;
 }
 
 .colecoes .colecoes_cima .container_destaque a{
@@ -492,6 +527,8 @@ nav .cima ul li{
 
 .galeria{
     background-color: #f9f8fe;
+    height: 1150px;
+    padding-top: 120px;
 }
 
 .galeria-header {
@@ -499,8 +536,9 @@ nav .cima ul li{
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
-  max-width: 1320px;
-  margin-left: auto;
+  width: 100%;
+  padding-right: 5%;
+  padding-left: 5%;
 }
 
 .galeria-titulo {
@@ -511,7 +549,6 @@ nav .cima ul li{
   line-height: 38px;
   letter-spacing: 0.75px;
   color: #474747;
-  margin-left: 80px;
 }
 
 .galeria-todos{
@@ -532,13 +569,17 @@ nav .cima ul li{
     list-style: none;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    justify-items: center;
     gap: 24px;
     margin: 0 auto;
     max-width: 1200px;
+    padding-top: 10px;
   }
 
 .product-item{
     margin-left: 0;
+    width: 292px;
 }
 
 .product-image {
@@ -575,6 +616,16 @@ nav .cima ul li{
     color: #000000;
     padding: 5px 10px;
     border-radius: 29px;
+    width: 96px;
+    height: 32px;
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.75px;
+    color: #474747; 
   }
 
 .product-details {
@@ -638,25 +689,18 @@ nav .cima ul li{
   /* ELEMENTOS DA SESSÃO OFERTA */
 
 .oferta{
-    margin-top: 106px;
-    right: 159px;
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
+    align-items: center;
     gap: 97px;
     position: relative;
     width: 100%;
     height: 553px;
 }
 
-.oferta div{
-    margin: 0 0;
-}
-
 .oferta .img_box{
     position: relative;
-    top: 0;
-    left: 0;
 }
 
 .oferta div div{
@@ -668,13 +712,12 @@ nav .cima ul li{
     width: 466px;
     height: 466px;
     border-radius: 100%;
-    margin-left: 129px;
     background: linear-gradient(180deg, #4200ff40 -40.67%, #ffffff00 100%);
 }
 
-.oferta div img{
-    top: 28px;
-    left: 60px;
+.oferta .img_box img{
+    top: 30px;
+    right: -30px;
     position: absolute;
 }
 
@@ -716,7 +759,7 @@ nav .cima ul li{
     text-decoration: none;
 }
 
-.oferta a p{
+.oferta .texto_oferta a p{
     display: flex;
     flex-wrap: wrap;
     background-color: #C92071;
@@ -735,6 +778,11 @@ nav .cima ul li{
     align-items: center;
     justify-content: center;
     letter-spacing: 0.75px;
+    transition-duration: 250ms;
+}
+
+.oferta .texto_oferta a p:hover{
+    background-color: #a11157;
 }
 
 /* ELEMENTOS DO FOOTER */
@@ -743,7 +791,8 @@ nav .cima ul li{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    height: 454px;
+    gap: 20px;
+    height: 100%;
     width: 100%;
     color: white;
     background-color: #1F1F1F;
@@ -755,7 +804,12 @@ nav .cima ul li{
 }
 
 .social{
-    width: 20vw;
+    width: 253px;
+    min-width: 253px;
+}
+
+.social .container_logo_footer{
+    width: 100%;
 }
 
 .info a, .categorias a{
@@ -787,14 +841,14 @@ nav .cima ul li{
     margin-top: 77px;
 }
 
-.footer .social a{
+.footer .social div a{
     width: 33px;
     height: 33px;
     margin-top: 40px;
     text-decoration: none;
 }
 
-.footer .social a img{
+.footer .social div a img{
     width: 33px;
     height: 33px;
 }
@@ -841,4 +895,5 @@ nav .cima ul li{
     font-weight: 400;
     font-size: 13px;
     line-height: 24px;
+    margin-bottom: 22px;
 }

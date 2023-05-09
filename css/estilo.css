@@ -482,8 +482,10 @@ nav .cima ul li{
 }
 
   /* ELEMENTOS DA SESSÃO GALERIA */
+
 .galeria-header {
   display: flex;
+  background-color: #f9f8fe;
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;

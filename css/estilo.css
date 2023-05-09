@@ -324,6 +324,16 @@ header div ul li a{
     transition-duration: 250ms;
   }
 
+  .ponto_ativo{
+    height: 12px;
+    width: 12px;
+    background-color: #c21146;
+    margin-right: 6px;
+    border-radius: 50%;
+    display: inline-block;
+    transition-duration: 250ms;
+  }
+
   .ponto:hover{
     background-color: #c21146
   }

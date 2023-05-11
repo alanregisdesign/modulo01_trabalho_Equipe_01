@@ -12,19 +12,25 @@ body{
     overflow-x: hidden;
 }
 
+.site_header{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1260px;
+    margin: 0 auto;
+}
+
 header{
     display: flex;
     background-color: #ffffff;
     justify-content: space-between;
     padding: 16px;
-    padding-right: 9%;
-    padding-left: 9%;
-    width: 100%;
     align-items: center;
     gap: 34px;
 }
 
-.cima{
+header .cima{
     margin-top: 30px;
 }
 
@@ -324,7 +330,7 @@ header div ul li a{
     transition-duration: 250ms;
   }
 
-  .ponto_ativo{
+.ponto_ativo{
     height: 12px;
     width: 12px;
     background-color: #c21146;
@@ -334,7 +340,7 @@ header div ul li a{
     transition-duration: 250ms;
   }
 
-  .ponto:hover{
+.ponto:hover{
     background-color: #c21146
   }
 
@@ -585,11 +591,11 @@ header div ul li a{
   color: #C92071;
 }
 
-.galeria-todos:active{
-  color: #C92071;
-}
+.galeria-todos a{
+    color: #C92071;
+  }
 
-.galeria-todos:link{
+.galeria-todos a:active{
   color: #C92071;
 }
 
@@ -619,8 +625,9 @@ header div ul li a{
     width: 292px;
     height: 321px;
     background-color: #fff;
-    border-radius: 8px;
     overflow: hidden;
+    box-shadow: 6px 16px 30px rgba(105, 98, 98, 0.05);
+    border-radius: 4px;
   }
   
 .product-image:before {
@@ -744,7 +751,7 @@ header div ul li a{
     width: 466px;
     height: 466px;
     border-radius: 100%;
-    background: linear-gradient(180deg, #4200ff40 -40.67%, #ffffff00 100%);
+    background: linear-gradient(180deg, #4200ff40 -40.67%, #ffffff00 60%);
 }
 
 .oferta .img_box img{
@@ -847,6 +854,12 @@ header div ul li a{
 .info a, .categorias a{
     text-decoration: none;
     color: white;
+    transition-duration: 250ms;
+}
+
+.info a:hover, .categorias a:hover{
+    text-decoration: none;
+    color: #C92071;
 }
 
 .info, .categorias, .contato{
